@@ -1,0 +1,72 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+body {
+  background-color: #000000;  /* Fondo negro */
+  color: #ffffff;             /* Texto blanco */
+  min-height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;  /* Fuente para todo el texto */
+}
+
+/* Asegurarse de que las tarjetas de películas sean visibles */
+.card {
+  background-color: #1c1c1c;  /* Fondo oscuro para las tarjetas */
+  color: #ffffff;             /* Texto blanco dentro de las tarjetas */
+}
+
+/* Cambia el color de los enlaces */
+a {
+  color: #1e90ff; /* Un color azul claro para enlaces */
+}
+
+a:hover {
+  color: #00bfff;  /* Azul más claro en hover */
+}
+
+/* Ajuste para el navbar */
+.navbar {
+  background-color: #333333;  /* Fondo gris oscuro para el navbar */
+}
+
+.navbar-brand, .nav-link {
+  color: #ffffff !important;  /* Texto blanco para los enlaces del navbar */
+}
+
+/* Otros ajustes visuales */
+.container {
+  padding-top: 20px;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
